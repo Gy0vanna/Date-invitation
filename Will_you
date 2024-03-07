@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Will You Go on a Date with Me?</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif; /* Verdana font */
+            background-color: #ff80ab; /* Vibrant pink background */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: black; /* Black font color */
+        }
+
+        h1 {
+            font-size: 36px; /* Large font size */
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 20px 40px;
+            font-size: 24px; /* Large font size */
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        #yesButton {
+            background-color: #4caf50; /* Green button color */
+            color: white; /* White font color */
+        }
+
+        #noButton {
+            background-color: #f44336; /* Red button color */
+            color: white; /* White font color */
+        }
+
+        button:hover {
+            opacity: 0.8; /* Reduce opacity on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Will You Go on a Date with Me?</h1>
+    <button id="yesButton" onclick="yesFunction()">YES</button>
+    <button id="noButton" onclick="noFunction()">NO</button>
+
+    <script>
+        function yesFunction() {
+            alert("YIPEEEE!");
+        }
+        function noFunction() {
+            alert("ARE YOU SURE?");
+        }
+    </script>
+</body>
+</html>
